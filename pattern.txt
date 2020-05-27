@@ -1,0 +1,396 @@
+FIBONACCI PATTERN (PATTERN 4)
+Take N (number of rows), print the following pattern (for N = 4)
+0
+1 1
+2 3 5
+8 13 21 34
+
+Input Format:
+Constraints:
+0 < N < 100
+
+Output Format
+Sample Input
+4
+Sample Output
+0 
+1    1 
+2    3     5 
+8   13    21    34
+
+
+-------------------------------------------------
+
+
+
+MANMOHAN LOVES PATTERNS - I
+Given N, help Manmohan to print pattern upto N lines. For eg For N=6 , following pattern will be printed.
+
+1
+11
+111
+1001
+11111
+100001
+
+Input Format:
+Single number N.
+
+Constraints:
+N<=1000
+
+Output Format
+Pattern corresponding to N.
+
+Sample Input
+6
+Sample Output
+1 
+11
+111 
+1001 
+11111
+100001
+
+
+---------------------------------------------------------
+
+
+
+MANMOHAN LOVES PATTERNS- II
+Help Manmohan to print pattern of a given number. See the output pattern for given input n = 5.
+
+Input Format:
+Single integer N denoting number of lines of the pattern.
+
+Constraints:
+N<=1000
+
+Output Format
+Pattern.
+
+Sample Input
+5
+Sample Output
+1
+11
+202
+3003
+40004
+
+
+
+-------------------------------------------------
+
+
+
+
+PATTERN MOUNTAIN
+Take N (number of rows), print the following pattern (for N = 4).
+
+                       1           1
+                       1 2       2 1  
+                       1 2 3   3 2 1
+                       1 2 3 4 3 2 1   
+Input Format:
+Constraints:
+0 < N < 10
+
+Output Format
+Sample Input
+4
+Sample Output
+1						1
+1	2				2	1
+1	2	3		3	2	1
+1	2	3	4	3	2	1
+
+
+
+-------------------------------------------------------
+
+
+
+
+PATTERN WITH ZEROS
+Take N (number of rows), print the following pattern (for N = 5)
+1
+2 2
+3 0 3
+4 0 0 4
+5 0 0 0 5
+
+Input Format:
+Constraints:
+0 < N < 100
+
+Output Format
+Sample Input
+5
+Sample Output
+
+1  
+2	2  
+3	0	3    
+4	0	0	4  
+5	0	0	0	5
+
+
+--------------------------------------------------------
+
+
+
+PATTERN TRIANGLE
+Take N (number of rows), print the following pattern (for N = 4).
+
+                       1 
+                     2 3 2
+                   3 4 5 4 3
+                 4 5 6 7 6 5 4
+Input Format:
+Constraints:
+0 < N < 10
+
+Output Format
+Sample Input
+4
+Sample Output
+
+                        1
+		2	3	2
+	3	4	5	4	3
+4	5	6	7	6	5	4
+
+
+-----------------------------------------------------------
+
+
+
+PATTERN DOUBLESIDEDARROW
+Take N as input. For a value of N=7, we wish to draw the following pattern :
+
+                            1 
+                        2 1   1 2 
+                    3 2 1       1 2 3 
+                4 3 2 1           1 2 3 4 
+                    3 2 1       1 2 3 
+                        2 1   1 2 
+                            1 
+Input Format:
+Take N as input.
+
+Constraints:
+N is odd number.
+
+Output Format
+Pattern should be printed with a space between every two values.
+
+Sample Input
+7
+Sample Output
+
+            1 
+        2 1   1 2 
+    3 2 1       1 2 3 
+4 3 2 1           1 2 3 4 
+    3 2 1       1 2 3 
+        2 1   1 2 
+            1 
+
+--------------------------------------------------
+
+
+PATTERN INVERTEDHOURGLASS
+Take N as input. For a value of N=5, we wish to draw the following pattern :
+
+             5                   5 
+             5 4               4 5 
+             5 4 3           3 4 5 
+             5 4 3 2       2 3 4 5 
+             5 4 3 2 1   1 2 3 4 5 
+             5 4 3 2 1 0 1 2 3 4 5 
+             5 4 3 2 1   1 2 3 4 5 
+             5 4 3 2       2 3 4 5 
+             5 4 3           3 4 5 
+             5 4               4 5 
+             5                   5 
+Input Format:
+Take N as input.
+
+Constraints:
+Output Format
+Pattern should be printed with a space between every two values.
+
+Sample Input
+5
+Sample Output
+
+5                   5 
+5 4               4 5 
+5 4 3           3 4 5 
+5 4 3 2       2 3 4 5 
+5 4 3 2 1   1 2 3 4 5 
+5 4 3 2 1 0 1 2 3 4 5 
+5 4 3 2 1   1 2 3 4 5 
+5 4 3 2       2 3 4 5 
+5 4 3           3 4 5 
+5 4               4 5 
+5                   5 
+
+-----------------------------------------------------------
+
+
+卐 GANESHA'S PATTERN
+Take as input N, an odd number (>=5) . Print the following pattern as given below for N = 7.
+
+*  ****
+*  *
+*  *
+*******
+   *  *
+   *  *
+****  *
+Input Format:
+Enter value of N ( >=5 )
+
+Constraints:
+N >= 5
+
+Output Format
+Sample Input
+7
+Sample Output
+*  ****
+*  *
+*  *
+*******
+   *  *
+   *  *
+****  *
+
+
+------------------------------------------
+
+
+HOLLOW DIAMOND PATTERN(PATTERN 6)
+Take N (number of rows), print the following pattern (for N = 5).
+
+     * * * * *
+     * *   * *
+     *       *
+     * *   * *
+     * * * * *
+Input Format:
+Constraints:
+0 < N < 10 (where N is an odd number)
+
+Output Format
+Sample Input
+5
+Sample Output
+
+*	*	*       *      *		  
+*	*	        *      *
+* 	                       *
+* 	*               *      *
+* 	*	*       *      *	
+
+
+
+----------------------------------------------------
+
+
+HOLLOW RHOMBUS PATTERN
+Given number of rows N, you have to print a Hollow Rhombus. See the output for corresponding given input.
+
+Input Format:
+Single integer N.
+
+Constraints:
+N <= 20
+
+Output Format
+Print pattern.
+
+Sample Input
+5
+Sample Output
+    *****
+   *   *
+  *   *
+ *   *
+*****
+
+
+--------------------------------------------
+
+
+
+PASCAL TRIANGLE 1
+Given an integer N, print Pascal Triangle upto N rows. 
+
+Input Format:
+Single integer N.
+
+Constraints:
+N <= 10
+
+Output Format
+Print pascal triangle.
+
+Sample Input
+4
+Sample Output
+
+           1
+         1   1
+       1   2   1
+     1   3   3   1
+
+----------------------------------------
+
+
+PATTERN NUMBERS & STARS - 1
+Take as input N, a number. Print the pattern as given in output section for corresponding input.
+
+Input Format:
+Enter value of N
+
+Constraints:
+Output Format
+All numbers and stars are Space separated
+
+Sample Input
+5
+Sample Output
+1 2 3 4 5
+1 2 3 4 * 
+1 2 3 * * *
+1 2 * * * * *
+1 * * * * * * *
+
+
+----------------------------------------------
+
+
+PATTERN NUMBERS & STARS - 2
+Take as input N, a number. Print the pattern as given in the input and output section.
+
+Input Format:
+Enter value of N
+
+Constraints:
+Output Format
+Print the pattern.
+
+Sample Input
+7
+Sample Output
+ 1******
+ 12*****
+ 123****
+ 1234***
+ 12345**
+ 123456*
+ 1234567
+--------------------------------------------------
